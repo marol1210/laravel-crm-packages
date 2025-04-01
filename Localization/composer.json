@@ -1,0 +1,27 @@
+{
+    "name": "marol/localization",
+    "description": "localization",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marol",
+            "email": "mzh1986love@sina.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Localization\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Localization\\Providers\\LocalizationServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability":"dev"
+}
